@@ -5,7 +5,6 @@ package com.kowalczyk.journeyproject.repo;
  */
 public class Reservation {
     private String userName;
-    private String journeyType;
     private String aboutJourney;
 
     public Reservation(String userName, String aboutJourney) {
@@ -30,5 +29,13 @@ public class Reservation {
 
     public void setAboutJourney(String aboutJourney) {
         this.aboutJourney = aboutJourney;
+    }
+
+    @Override
+    public String toString() {
+        return "Reservation{" +
+                "userName='" + userName + '\'' +
+                ", aboutJourney='" + aboutJourney + '\'' +
+                '}';
     }
 }

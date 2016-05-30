@@ -40,7 +40,6 @@ public class MainBase {
         try{
             statement.execute(createRelax);
             statement.execute(createSeeing);
-            //statement.execute(createAttraction);
             statement.execute(createTour);
             statement.execute(createReservation);
             statement.execute(createBuyTable);
@@ -48,15 +47,14 @@ public class MainBase {
             e.printStackTrace();
         }
     }
-    private static final String createRelax = "CREATE TABLE IF NOT EXISTS relax (id_journey INTEGER PRIMARY KEY, name VARCHAR, date VARCHAR, airport VARCHAR, " +
-            "hotel VARCHAR, place VARCHAR, pool VARCHAR , golf VARCHAR)";
-    private static final String createSeeing = "CREATE TABLE IF NOT EXISTS seeing (id_journey INTEGER PRIMARY KEY, name VARCHAR, date VARCHAR, airport VARCHAR, " +
-            "hotel VARCHAR, place VARCHAR, attraction VARCHAR )";
-    //private static final String createAttraction = "CREATE TABLE IF NOT EXISTS attraction (id INTEGER PRIMARY KEY, name VARCHAR, about VARCHAR)";
-    private static final String createTour = "CREATE TABLE IF NOT EXISTS tour (id_journey INTEGER PRIMARY KEY, name VARCHAR, date VARCHAR, airport VARCHAR, " +
-            "hotel VARCHAR, place VARCHAR)";
+    private static final String createRelax = "CREATE TABLE IF NOT EXISTS relax (id_journey INTEGER PRIMARY KEY, name VARCHAR, place VARCHAR,date VARCHAR,  " +
+            "hotel VARCHAR,  airport VARCHAR, price INTEGER, pool VARCHAR , golf VARCHAR)";
+    private static final String createSeeing = "CREATE TABLE IF NOT EXISTS seeing (id_journey INTEGER PRIMARY KEY, name VARCHAR, place VARCHAR, date VARCHAR, " +
+            "hotel VARCHAR, airport VARCHAR, price INTEGER, attraction VARCHAR )";
+    private static final String createTour = "CREATE TABLE IF NOT EXISTS tour (id_journey INTEGER PRIMARY KEY, name VARCHAR,place VARCHAR, date VARCHAR, airport VARCHAR, " +
+            "hotel VARCHAR, price INTEGER)";
     private static final String createReservation = "CREATE TABLE IF NOT EXISTS reserv (id_reserv INTEGER PRIMARY KEY, userName VARCHAR," +
             "aboutJourney VARCHAR)";
-    private static final String createBuyTable = "CREATE TABLE IF NOT EXISTS buy (id_buy INTEGER PRIMARY KEY, userName VARCHAR, journeyName VARCHAR" +
+    private static final String createBuyTable = "CREATE TABLE IF NOT EXISTS buy (id_buy INTEGER PRIMARY KEY, userName VARCHAR," +
             "aboutJourney VARCHAR, howMany INTEGER)";
 }

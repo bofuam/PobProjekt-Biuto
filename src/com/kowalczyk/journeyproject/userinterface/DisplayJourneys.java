@@ -1,14 +1,9 @@
 package com.kowalczyk.journeyproject.userinterface;
 
-import com.kowalczyk.journeyproject.database.AddNewJourneyDaoImpl;
-import com.kowalczyk.journeyproject.database.FindTablesDaoImpl;
-import com.kowalczyk.journeyproject.database.InsertJourneys;
-import com.kowalczyk.journeyproject.database.ReservationLogic;
-import com.kowalczyk.journeyproject.repo.RelaxJourney;
-import com.kowalczyk.journeyproject.repo.Reservation;
-import com.kowalczyk.journeyproject.repo.SeeingJourney;
-import com.kowalczyk.journeyproject.repo.TourJourney;
+import com.kowalczyk.journeyproject.database.*;
+import com.kowalczyk.journeyproject.repo.*;
 
+import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
@@ -20,15 +15,19 @@ public class DisplayJourneys {
     private InsertJourneys insertJourneys;
     private FindTablesDaoImpl findTablesDao;
     private Scanner in;
+    private CheckWhatNumber checkWhatNumber;
+
     public DisplayJourneys() {
         in = new Scanner(System.in);
         insertJourneys = new InsertJourneys();
         insertJourneys.createBase();
         findTablesDao = new FindTablesDaoImpl();
+        checkWhatNumber = new CheckWhatNumber();
     }
     public int displayWelcomeMessage(){
-        System.out.println("Hello, To see Tour Journeys pick 1, Seeing pick 2, Relax 3, add new journey 4, see reservation 5, bought journeys 6");
-        return pickedNumber = in.nextInt();
+        System.out.println("To see Tour Journeys pick 1, Seeing pick 2, Relax 3, add new journey 4, see reservation 5, bought journeys 6");
+        pickedNumber = checkWhatNumber.checkIsNumber();
+        return pickedNumber;
     }
     public void checkWhatPicked(int picked){
         switch (picked){
@@ -48,8 +47,16 @@ public class DisplayJourneys {
                 displayReservations();
                 break;
             case 6:
-
+                displayBuyTables();
                 break;
+        }
+    }
+
+    private void displayBuyTables() {
+        findTablesDao.setBuyTableList(insertJourneys.getBuyDai());
+        List<BuyTable> buyTableList = findTablesDao.getBuyTableList();
+        for(BuyTable bu : buyTableList){
+            System.out.println(bu.toString());
         }
     }
 
@@ -70,43 +77,63 @@ public class DisplayJourneys {
         findTablesDao.setRelaxList(insertJourneys.getRelaxDao());
         int i =1;
         List<RelaxJourney> relaxJourneyList = findTablesDao.getRelaxJourneyList();
-        for (RelaxJourney rl : relaxJourneyList){
-            System.out.println(i + ": " + rl.toString());
-            i++;
+        if(relaxJourneyList.size() == 0){
+            noJourneysList();
+        }else{
+            for (RelaxJourney rl : relaxJourneyList){
+                System.out.println(i + ": " + rl.toString());
+                i++;
+            }
+            checkReservOrBuy(relaxJourneyList);
         }
-        checkReservOrBuy(relaxJourneyList);
     }
 
     private void displayTourJourneys() {
         int i =1;
         findTablesDao.setTourList(insertJourneys.getTourDao());
         List<TourJourney> tourJourneyList = findTablesDao.getTourJourneyList();
-        for (TourJourney tr : tourJourneyList){
-            System.out.println(i + ": " + tr.toString());
-            i++;
+        if(tourJourneyList.size() == 0){
+            noJourneysList();
+        }else{
+            for (TourJourney tr : tourJourneyList){
+                System.out.println(i + ": " + tr.toString());
+                i++;
+            }
+            checkReservOrBuy(tourJourneyList);
         }
-        checkReservOrBuy(tourJourneyList);
     }
 
     public void displaySeeingJourneys(){
         int i =1;
         findTablesDao.setSeeingList(insertJourneys.getSeeingDao());
         List<SeeingJourney> seeingJourneyList= findTablesDao.getSeeingJourneyList();
-        for (SeeingJourney sj : seeingJourneyList) {
-            System.out.println(i + ": " + sj.toString());
-            i++;
+        if(seeingJourneyList.size() == 0){
+            noJourneysList();
+        }else{
+            for (SeeingJourney sj : seeingJourneyList) {
+                System.out.println(i + ": " + sj.toString());
+                i++;
+            }
+            checkReservOrBuy(seeingJourneyList);
         }
-        checkReservOrBuy(seeingJourneyList);
     }
     public int reservationOrBuy(){
+        int number;
         System.out.println("reservation 1, buy journey 2");
-        return in.nextInt();
+        number = checkWhatNumber.checkIsNumber();
+        return number;
     }
     public void checkReservOrBuy(List<?> list){
-        if(reservationOrBuy() == 1){
+        int number = reservationOrBuy();
+        if(number == 1){
             ReservationLogic reservationLogic = new ReservationLogic(list, insertJourneys);
-        }else if(reservationOrBuy() == 2){
-
+        }else if(number == 2){
+            BuyLogic buyLogic = new BuyLogic(list, insertJourneys);
         }
     }
+    public void noJourneysList(){
+        System.out.println("there are no journey, you have to wait or add new or reserv/buy anotother type");
+        checkWhatPicked(displayWelcomeMessage());
+    }
+
 }

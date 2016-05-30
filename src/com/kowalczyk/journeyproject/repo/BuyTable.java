@@ -21,4 +21,11 @@ public class BuyTable extends Reservation{
     public void setHowMany(int howMany) {
         this.howMany = howMany;
     }
+
+    @Override
+    public String toString() {
+        return "BuyTable{" +
+                "howMany=" + howMany +
+                "} " + super.toString();
+    }
 }

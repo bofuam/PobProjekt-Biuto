@@ -99,6 +99,19 @@ public class InsertJourneys implements InsertJourneysDao{
         setConnection();
         setStatement();
     }
+    @Override
+    public void deleteTourJourney(TourJourney tourJourney) {
+        tourDao.deleteBoughtTourJourney(tourJourney);
+    }
 
+    @Override
+    public void deleteSeeingJourney(SeeingJourney seeingJourney) {
+        seeingDao.deleteBoughtSeeingJourney(seeingJourney);
+    }
+
+    @Override
+    public void deleteRelaxJourney(RelaxJourney relaxJourney) {
+        relaxDao.deleteBoughtJourney(relaxJourney);
+    }
 
 }

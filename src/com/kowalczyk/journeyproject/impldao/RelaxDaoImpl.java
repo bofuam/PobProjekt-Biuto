@@ -20,7 +20,7 @@ public class RelaxDaoImpl extends BaseDaoImpl implements RelaxDao{
     }
     @Override
     public void insertRelax(RelaxJourney relaxJourney) {
-            String sql = "insert into relax values(null, ?, ?, ?, ?, ?, ?, ?)";
+            String sql = "insert into relax values(null, ?, ?, ?, ?, ?, ?, ?,?)";
             prStatement = prepareStatement.getPreparedStatement(sql, connection);
         try {
             prStatement.setString(1, relaxJourney.getName());
@@ -28,8 +28,9 @@ public class RelaxDaoImpl extends BaseDaoImpl implements RelaxDao{
             prStatement.setString(3, relaxJourney.getAirport());
             prStatement.setString(4, relaxJourney.getPlace().getName());
             prStatement.setString(5, relaxJourney.getHotel().getName());
-            prStatement.setString(6, relaxJourney.isGolf());
-            prStatement.setString(7, relaxJourney.isPool());
+            prStatement.setInt(6, relaxJourney.getPrice());
+            prStatement.setString(7, relaxJourney.isGolf());
+            prStatement.setString(8, relaxJourney.isPool());
             prStatement.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
@@ -51,7 +52,8 @@ public class RelaxDaoImpl extends BaseDaoImpl implements RelaxDao{
                 String airport = resultSet.getString("airport");
                 String pool = resultSet.getString("pool");
                 String golf = resultSet.getString("golf");
-                relaxJourneyList.add(new RelaxJourney(name, place, date, hotel, airport, 0, pool,golf));
+                int price = resultSet.getInt("price");
+                relaxJourneyList.add(new RelaxJourney(name, place, date, hotel, airport, price, pool,golf));
             }
         } catch (SQLException e) {
             e.printStackTrace();

@@ -21,21 +21,15 @@ public class CreateFirstOneBase {
         Hotel hotel2 = new Hotel("Dobry");
         relaxJourneyList.add(new RelaxJourney("hiszpania", place1, "29.02", hotel2, "warszawa", 24, "tak", "tak"));
         relaxJourneyList.add(new RelaxJourney("kolobrzeg", place2, "43-4", hotel1, "poznan", 33, "nie", "nie"));
-        for (RelaxJourney rl : relaxJourneyList){
-            insertJourneys.createRelaxJourney(rl);
-        }
+        relaxJourneyList.forEach(insertJourneys::createRelaxJourney);
         Place placesforTour = new Place("Hiszpania, mania, kloldad");
         Hotel hotelsfourTour = new Hotel("baltyk, duzy, maluy");
         List<TourJourney> tourJourneys = new ArrayList<>();
         tourJourneys.add(new TourJourney("hiszpania", placesforTour, "34-32", hotelsfourTour, "modlin", 5000));
-        for(TourJourney tr : tourJourneys){
-            insertJourneys.createTourJourney(tr);
-        }
+        tourJourneys.forEach(insertJourneys::createTourJourney);
         List<SeeingJourney> seeingJourneyList = new ArrayList<>();
         seeingJourneyList.add(new SeeingJourney("polska", place1, "42", hotel1, "berlin", 32, "duzo atrakcji takich jak katedra, zamek, plaza, cos"));
-        seeingJourneyList.add(new SeeingJourney("polska", place1, "42", hotel1, "berlin", 32, "duzo atrakcji takich jak katedra, zamek, plaza, cos"));
-        for (SeeingJourney se : seeingJourneyList) {
-            insertJourneys.createSeeingJourney(se);
-        }
+        seeingJourneyList.add(new SeeingJourney("alaska", place1, "4", hotel1, "lin", 32, "duzo atjak katedra, z plaza, cos"));
+        seeingJourneyList.forEach(insertJourneys::createSeeingJourney);
     }
 }

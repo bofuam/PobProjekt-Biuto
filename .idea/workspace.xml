@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b262ed3-54a4-4284-b69a-7f24ce499008" name="Default" comment="" />
+    <list default="true" id="0b262ed3-54a4-4284-b69a-7f24ce499008" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/dao/ReservationBuyDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/BuyLogic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/CheckWhatNumber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/ReservationBuyLogic.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/dao/DeleteDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/database/DeleteDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/dao/DeleteDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/DeleteDaoImpl.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/Main.class" afterPath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/dao/InsertJourneysDao.class" afterPath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/dao/InsertJourneysDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/database/CreateFirstOneBase.class" afterPath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/database/CreateFirstOneBase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/database/InsertJourneys.class" afterPath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/database/InsertJourneys.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/database/MainBase.class" afterPath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/database/MainBase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/database/ReservationLogic.class" afterPath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/database/ReservationLogic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/impldao/BuyDaiImpl.class" afterPath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/impldao/BuyDaiImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/impldao/RelaxDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/impldao/RelaxDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/impldao/SeeingDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/impldao/SeeingDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/impldao/TourDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/impldao/TourDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/repo/BuyTable.class" afterPath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/repo/BuyTable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/repo/Reservation.class" afterPath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/repo/Reservation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/userinterface/DisplayJourneys.class" afterPath="$PROJECT_DIR$/out/production/PobProject/com/kowalczyk/journeyproject/userinterface/DisplayJourneys.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kowalczyk/Main.java" afterPath="$PROJECT_DIR$/src/com/kowalczyk/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/dao/InsertJourneysDao.java" afterPath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/dao/InsertJourneysDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/CreateFirstOneBase.java" afterPath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/CreateFirstOneBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/InsertJourneys.java" afterPath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/InsertJourneys.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/MainBase.java" afterPath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/MainBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/ReservationLogic.java" afterPath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/ReservationLogic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/BuyDaiImpl.java" afterPath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/BuyDaiImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/RelaxDaoImpl.java" afterPath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/RelaxDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/SeeingDaoImpl.java" afterPath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/SeeingDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/TourDaoImpl.java" afterPath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/TourDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/BuyTable.java" afterPath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/BuyTable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/Reservation.java" afterPath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/Reservation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/userinterface/DisplayJourneys.java" afterPath="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/userinterface/DisplayJourneys.java" />
+    </list>
     <ignored path="PobProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,107 +73,132 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DisplayJourneys.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/userinterface/DisplayJourneys.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuyTable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/BuyTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuyDaiImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/BuyDaiImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1463657133117" expanded="true" signature="586:627" placeholder="INSERT INTO buy... " />
-                <marker date="1463657133117" expanded="true" signature="1314:1331" placeholder="SELECT * FRO... buy" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReservationLogic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/ReservationLogic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReservationDaoImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/ReservationDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.86268175">
-              <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1463657362164" expanded="true" signature="630:668" placeholder="INSERT INTO reserv... " />
-                <marker date="1463657362164" expanded="true" signature="1285:1305" placeholder="SELECT * FRO... reserv" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MainBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/MainBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="136" selection-start-line="57" selection-start-column="136" selection-end-line="57" selection-end-column="136" />
+              <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1463656425461" expanded="true" signature="1436:1546" placeholder="CREATE TABLE... IF" />
-                <marker date="1463656425461" expanded="true" signature="1436:1547" placeholder="CREATE TABLE... IF" />
-                <marker date="1463656425461" expanded="true" signature="1436:1592" placeholder="CREATE TABLE... IF" />
-                <marker date="1463656425461" expanded="true" signature="1436:1622" placeholder="CREATE TABLE... IF" />
-                <marker date="1463656425461" expanded="true" signature="1673:1852" placeholder="CREATE TABLE... IF" />
-                <marker date="1463656425461" expanded="true" signature="1909:1999" placeholder="CREATE TABLE... IF" />
-                <marker date="1463656425461" expanded="true" signature="1909:2000" placeholder="CREATE TABLE... IF" />
-                <marker date="1463656425461" expanded="true" signature="2049:2205" placeholder="CREATE TABLE... IF" />
-                <marker date="1463656425461" expanded="true" signature="2261:2382" placeholder="CREATE TABLE... IF" />
-                <marker date="1463656425461" expanded="true" signature="2435:2578" placeholder="CREATE TABLE... IF" />
-                <marker date="1463656425461" expanded="true" signature="2435:2587" placeholder="CREATE TABLE... IF" />
+                <marker date="1464588987951" expanded="true" signature="1385:1493" placeholder="CREATE TABLE... IF" />
+                <marker date="1464588987951" expanded="true" signature="1385:1494" placeholder="CREATE TABLE... IF" />
+                <marker date="1464588987951" expanded="true" signature="1385:1526" placeholder="CREATE TABLE... IF" />
+                <marker date="1464588987951" expanded="true" signature="1385:1587" placeholder="CREATE TABLE... IF" />
+                <marker date="1464588987951" expanded="true" signature="1638:1832" placeholder="CREATE TABLE... IF" />
+                <marker date="1464588987951" expanded="true" signature="1881:2051" placeholder="CREATE TABLE... IF" />
+                <marker date="1464588987951" expanded="true" signature="2107:2228" placeholder="CREATE TABLE... IF" />
+                <marker date="1464588987951" expanded="true" signature="2281:2404" placeholder="CREATE TABLE... IF" />
+                <marker date="1464588987951" expanded="true" signature="2281:2413" placeholder="CREATE TABLE... IF" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/BaseDaoImpl.java">
+      <file leaf-file-name="TourDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/TourDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-              <folding />
+              <caret line="60" column="49" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1464588644697" expanded="true" signature="646:692" placeholder="insert into tour... " />
+                <marker date="1464588644697" expanded="true" signature="1469:1487" placeholder="SELECT * fro... tour" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reservation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/Reservation.java">
+      <file leaf-file-name="DisplayJourneys.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/userinterface/DisplayJourneys.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding />
+              <caret line="122" column="49" selection-start-line="122" selection-start-column="49" selection-end-line="122" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReservationBuyLogic.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/ReservationBuyLogic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.450727">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckWhatNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/CheckWhatNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindTablesDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/FindTablesDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#1249#1250#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RelaxDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/RelaxDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1463725881336" expanded="true" signature="641:694" placeholder="insert into attraction... " />
+                <marker date="1463725881336" expanded="true" signature="1617:1636" placeholder="SELECT * fro... relax" />
+                <marker date="1463725881336" expanded="true" signature="2685:2717" placeholder="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuyLogic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/BuyLogic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertJourneys.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/InsertJourneys.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2616#2617#0" expanded="true" />
+                <element signature="e#2676#2677#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,6 +213,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -159,8 +224,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyprojecy/impldao/AttractionImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyprojecy/impldao/RelaxDaonImpl.java" />
         <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyprojecy/dao/BaseDao.java" />
         <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyprojecy/impldao/AttractionDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/Attraction.java" />
@@ -185,14 +248,7 @@
         <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyprojecy/impldao/TourDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyprojecy/dao/DeleteDao.java" />
         <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyprojecy/database/DeleteDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/InsertJourneys.java" />
-        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/dao/InsertJourneysDao.java" />
-        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/SeeingDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/Hotel.java" />
-        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/RelaxDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/CreateFirstOneBase.java" />
-        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/TourDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/kowalczyk/Main.java" />
         <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/AddNewJourney.java" />
         <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/Place.java" />
         <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/TourJourney.java" />
@@ -201,13 +257,24 @@
         <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/SeeingJourney.java" />
         <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/RelaxJourney.java" />
         <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/AddNewJourneyDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/Reservation.java" />
-        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/MainBase.java" />
-        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/BuyTable.java" />
-        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/BuyDaiImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/ReservationLogic.java" />
-        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/userinterface/DisplayJourneys.java" />
         <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/ReservationDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/Reservation.java" />
+        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/dao/ReservationBuyDao.java" />
+        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/ReservationLogic.java" />
+        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/BuyDaiImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/BuyTable.java" />
+        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/dao/InsertJourneysDao.java" />
+        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/InsertJourneys.java" />
+        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/CreateFirstOneBase.java" />
+        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/RelaxDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/SeeingDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/BuyLogic.java" />
+        <option value="$PROJECT_DIR$/src/com/kowalczyk/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/TourDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/MainBase.java" />
+        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/userinterface/DisplayJourneys.java" />
+        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/CheckWhatNumber.java" />
+        <option value="$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/ReservationBuyLogic.java" />
       </list>
     </option>
   </component>
@@ -229,7 +296,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1096" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -254,9 +321,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -434,7 +501,7 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ParserCurrency" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -904,11 +971,19 @@
       <workItem from="1463594772402" duration="1489000" />
       <workItem from="1463596349889" duration="1895000" />
       <workItem from="1463637141793" duration="7280000" />
+      <workItem from="1463657444009" duration="1736000" />
+      <workItem from="1463659220463" duration="1404000" />
+      <workItem from="1463725243458" duration="813000" />
+      <workItem from="1463726092592" duration="149000" />
+      <workItem from="1463726272186" duration="329000" />
+      <workItem from="1463726644325" duration="897000" />
+      <workItem from="1464001169890" duration="27000" />
+      <workItem from="1464587327557" duration="5350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53441000" />
+    <option name="totallyTimeSpent" value="64146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="0" />
@@ -921,18 +996,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="896" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -951,15 +1026,9 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/RelaxDaoImpl.java</url>
-          <line>42</line>
+          <line>43</line>
           <properties />
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/SeeingDaoImpl.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="20" />
@@ -971,45 +1040,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/TourJourney.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/BuyDaiImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
           <folding>
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/RelaxJourney.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding>
-            <element signature="e#828#829#0" expanded="false" />
-            <element signature="e#855#856#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/MainBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1463656425461" expanded="true" signature="1436:1546" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1436:1547" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1436:1592" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1436:1622" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1673:1852" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1909:1999" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1909:2000" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="2049:2205" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="2261:2382" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="2435:2578" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="2435:2587" placeholder="CREATE TABLE... IF" />
+            <element signature="e#389#390#0" expanded="false" />
+            <element signature="e#433#434#0" expanded="false" />
+            <marker date="1463659082942" expanded="true" signature="586:624" placeholder="INSERT INTO buy... " />
+            <marker date="1463659082942" expanded="true" signature="1289:1306" placeholder="SELECT * FRO... buy" />
           </folding>
         </state>
       </provider>
@@ -1018,10 +1057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="e#716#717#0" expanded="false" />
-            <element signature="e#750#751#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1029,10 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="e#716#717#0" expanded="false" />
-            <element signature="e#750#751#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,17 +1073,15 @@
           <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1463656425461" expanded="true" signature="1436:1546" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1436:1547" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1436:1592" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1436:1622" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1673:1852" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1909:1999" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1909:2000" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="2049:2205" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="2261:2382" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="2435:2578" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="2435:2587" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="1385:1493" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="1385:1494" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="1385:1526" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="1385:1587" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="1638:1832" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="1881:2051" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="2107:2228" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="2281:2404" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="2281:2413" placeholder="CREATE TABLE... IF" />
           </folding>
         </state>
       </provider>
@@ -1063,9 +1092,9 @@
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1463596067242" expanded="true" signature="641:692" placeholder="insert into attraction... " />
-            <marker date="1463596067242" expanded="true" signature="1555:1574" placeholder="SELECT * fro... relax" />
-            <marker date="1463596067242" expanded="true" signature="2564:2596" placeholder="DELETE FROM " />
+            <marker date="1463725881336" expanded="true" signature="641:694" placeholder="insert into attraction... " />
+            <marker date="1463725881336" expanded="true" signature="1617:1636" placeholder="SELECT * fro... relax" />
+            <marker date="1463725881336" expanded="true" signature="2685:2717" placeholder="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -1084,10 +1113,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="e#828#829#0" expanded="false" />
-            <element signature="e#855#856#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1095,10 +1120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1106,7 +1127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,10 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1125,7 +1141,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,10 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#716#717#0" expanded="false" />
-            <element signature="e#750#751#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1146,17 +1157,15 @@
           <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1463656425461" expanded="true" signature="1436:1546" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1436:1547" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1436:1592" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1436:1622" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1673:1852" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1909:1999" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1909:2000" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="2049:2205" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="2261:2382" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="2435:2578" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="2435:2587" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="1385:1493" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="1385:1494" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="1385:1526" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="1385:1587" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="1638:1832" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="1881:2051" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="2107:2228" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="2281:2404" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="2281:2413" placeholder="CREATE TABLE... IF" />
           </folding>
         </state>
       </provider>
@@ -1179,9 +1188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21794872">
           <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1189,7 +1195,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12713675">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,9 +1212,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2361111">
           <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1217,7 +1219,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19978632">
           <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1225,27 +1226,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21794872">
           <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/dao/DeleteDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/DeleteDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4722222">
-          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1253,72 +1233,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/PrepareStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16346154">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/dao/InsertJourneysDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/RelaxDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1463596067242" expanded="true" signature="641:692" placeholder="insert into attraction... " />
-            <marker date="1463596067242" expanded="true" signature="1555:1574" placeholder="SELECT * fro... relax" />
-            <marker date="1463596067242" expanded="true" signature="2564:2596" placeholder="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/CreateFirstOneBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5624333">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/TourDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1463596150056" expanded="true" signature="646:690" placeholder="insert into tour... " />
-            <marker date="1463596150056" expanded="true" signature="1347:1365" placeholder="SELECT * fro... tour" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1326,10 +1240,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1337,7 +1247,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1345,7 +1254,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1361,7 +1269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="96" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1369,7 +1276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="95" selection-start-line="11" selection-start-column="95" selection-end-line="11" selection-end-column="95" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1377,47 +1283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68659127">
           <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/Reservation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/SeeingDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0549273">
-          <caret line="49" column="116" selection-start-line="49" selection-start-column="116" selection-end-line="49" selection-end-column="116" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1463482519758" expanded="true" signature="662:711" placeholder="insert into seeing... " />
-            <marker date="1463482519758" expanded="true" signature="1515:1535" placeholder="SELECT * fro... seeing" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/InsertJourneys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28594506">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/FindTablesDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30210015">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1425,11 +1290,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.0323101">
           <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/ReservationDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/Reservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/dao/ReservationBuyDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16478191">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1441,30 +1323,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/BuyDaiImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/BuyTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.631664">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/SeeingDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1463657133117" expanded="true" signature="586:627" placeholder="INSERT INTO buy... " />
-            <marker date="1463657133117" expanded="true" signature="1314:1331" placeholder="SELECT * FRO... buy" />
+            <element signature="imports" expanded="false" />
+            <marker date="1463726059618" expanded="true" signature="662:713" placeholder="insert into seeing... " />
+            <marker date="1463726059618" expanded="true" signature="1578:1598" placeholder="SELECT * fro... seeing" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/repo/BuyTable.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/PrepareStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/dao/InsertJourneysDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/BuyDaiImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+          <folding>
+            <element signature="e#389#390#0" expanded="false" />
+            <element signature="e#433#434#0" expanded="false" />
+            <marker date="1463659082942" expanded="true" signature="586:624" placeholder="INSERT INTO buy... " />
+            <marker date="1463659082942" expanded="true" signature="1289:1306" placeholder="SELECT * FRO... buy" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/CreateFirstOneBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14862682">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/RelaxDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1463725881336" expanded="true" signature="641:694" placeholder="insert into attraction... " />
+            <marker date="1463725881336" expanded="true" signature="1617:1636" placeholder="SELECT * fro... relax" />
+            <marker date="1463725881336" expanded="true" signature="2685:2717" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/FindTablesDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/BuyLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/InsertJourneys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2616#2617#0" expanded="true" />
+            <element signature="e#2676#2677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/TourDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="49" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1464588644697" expanded="true" signature="646:692" placeholder="insert into tour... " />
+            <marker date="1464588644697" expanded="true" signature="1469:1487" placeholder="SELECT * fro... tour" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/MainBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1464588987951" expanded="true" signature="1385:1493" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="1385:1494" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="1385:1526" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="1385:1587" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="1638:1832" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="1881:2051" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="2107:2228" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="2281:2404" placeholder="CREATE TABLE... IF" />
+            <marker date="1464588987951" expanded="true" signature="2281:2413" placeholder="CREATE TABLE... IF" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/ReservationLogic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.32956383">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1474,42 +1486,31 @@
     <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/userinterface/DisplayJourneys.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+          <caret line="122" column="49" selection-start-line="122" selection-start-column="49" selection-end-line="122" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/MainBase.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/CheckWhatNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="136" selection-start-line="57" selection-start-column="136" selection-end-line="57" selection-end-column="136" />
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1463656425461" expanded="true" signature="1436:1546" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1436:1547" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1436:1592" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1436:1622" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1673:1852" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1909:1999" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="1909:2000" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="2049:2205" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="2261:2382" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="2435:2578" placeholder="CREATE TABLE... IF" />
-            <marker date="1463656425461" expanded="true" signature="2435:2587" placeholder="CREATE TABLE... IF" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/impldao/ReservationDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kowalczyk/journeyproject/database/ReservationBuyLogic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86268175">
-          <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.450727">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1463657362164" expanded="true" signature="630:668" placeholder="INSERT INTO reserv... " />
-            <marker date="1463657362164" expanded="true" signature="1285:1305" placeholder="SELECT * FRO... reserv" />
           </folding>
         </state>
       </provider>

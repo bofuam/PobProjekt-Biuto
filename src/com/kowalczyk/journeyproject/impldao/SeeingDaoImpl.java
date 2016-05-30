@@ -19,14 +19,15 @@ public class SeeingDaoImpl extends BaseDaoImpl implements SeeingDao {
     @Override
     public void insertSeeing(SeeingJourney seeingJourney) {
         try {
-            String sql = "insert into seeing values(null, ?, ?, ?, ?, ?, ?)";
+            String sql = "insert into seeing values(null, ?, ?, ?, ?, ?, ?,?)";
             prStatement = prepareStatement.getPreparedStatement(sql, connection);
             prStatement.setString(1, seeingJourney.getName());
             prStatement.setString(2, seeingJourney.getDate());
             prStatement.setString(3, seeingJourney.getAirport());
             prStatement.setString(4, seeingJourney.getHotel().getName());
-            prStatement.setString(5, seeingJourney.getPlace().getName());
-            prStatement.setString(6, seeingJourney.getAttractions());
+            prStatement.setInt(5, seeingJourney.getPrice());
+            prStatement.setString(6, seeingJourney.getPlace().getName());
+            prStatement.setString(7, seeingJourney.getAttractions());
             prStatement.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
@@ -46,8 +47,9 @@ public class SeeingDaoImpl extends BaseDaoImpl implements SeeingDao {
                 String hotelName = resultSet.getString("hotel");
                 Hotel hotel = new Hotel(hotelName);
                 String airport = resultSet.getString("airport");
+                int price = resultSet.getInt("price");
                 String attractionArrayList =  resultSet.getString("attraction");
-                seeingJourneyList.add(new SeeingJourney(name, place, date, hotel, airport, 0, attractionArrayList));
+                seeingJourneyList.add(new SeeingJourney(name, place, date, hotel, airport, price, attractionArrayList));
             }
         } catch (SQLException e) {
             e.printStackTrace();

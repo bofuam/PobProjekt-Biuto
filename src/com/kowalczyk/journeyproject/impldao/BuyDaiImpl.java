@@ -19,7 +19,7 @@ public class BuyDaiImpl extends BaseDaoImpl implements BuyDao {
     public void insertBuyTable(BuyTable buyTable) {
         try {
             connection.setAutoCommit(true);
-            String sql = "INSERT INTO buy VALUES (null, ?, ?, ?, ?)";
+            String sql = "INSERT INTO buy VALUES (null, ?, ?, ?)";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, buyTable.getUserName());
             preparedStatement.setString(2, buyTable.getAboutJourney());
@@ -34,14 +34,13 @@ public class BuyDaiImpl extends BaseDaoImpl implements BuyDao {
     public List<BuyTable> findAllBuyTables() {
         buyTableList = new LinkedList<>();
         String uName;
-        String jName;
         String jAbout;
         int howMany;
         try {
             ResultSet resultSet = statement.executeQuery("SELECT * FROM buy");
             while (resultSet.next()){
                 uName = resultSet.getString("userName");
-                jAbout = resultSet.getString("journeyAbout");
+                jAbout = resultSet.getString("aboutJourney");
                 howMany = resultSet.getInt("howMany");
                 buyTableList.add(new BuyTable(uName, jAbout, howMany));
             }
